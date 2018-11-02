@@ -31,6 +31,7 @@ def turn(board)
     move(board, index)
     counter += 1
     display_board(board)
+    return counter
   else
     turn(board)
   end
