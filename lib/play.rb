@@ -33,7 +33,7 @@ def turn(board, counter)
     display_board(board)
     return counter
   else
-    turn(board)
+    turn(board, counter)
   end
 end
 
